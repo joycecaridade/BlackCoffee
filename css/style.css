@@ -21,13 +21,14 @@ body {
 
     display: flex;
     flex-direction: column;
+    justify-content: baseline;
     align-items: center;
 
     background-color: #FFFCF6;
 }
 
 header {
-    width: inherit;
+    width: 100%;
     height: 100%;
     background-image: url(../img/header-bg.png);
     background-repeat: no-repeat;
@@ -93,7 +94,8 @@ header .navbar-text-content .left-right-arrows img {
 /* end of header */
 
 section.cards {
-    min-width: 50%;
+    width: 95%;
+    max-width: 1440px;
     padding: 1rem;
 
     background-color: #FFFCF6;
@@ -138,7 +140,8 @@ section .card .left .right, .card-text p {
 /* end of cards */
 
 section.info {
-    min-width: 50%;
+    width: 95%;
+    max-width: 1440px;
     padding: 2rem;
 
     background-color: #FFFCF6;
@@ -216,7 +219,8 @@ section .price-card button {
 /* end of prices */
 
 section.benefits {
-    max-width: 100%;
+    width: 95%;
+    max-width: 1440px;
     height: 150px;
     display: flex;
     align-items: center;
@@ -242,7 +246,8 @@ section.benefits .delivery, .payment, .refund, .discounts, .gifts {
 
 
 section.catalog-accessories {
-    width: 100%;
+    width: 95%;
+    max-width: 1440px;
     padding: 1rem;
     background-color: #FFFCF6;
 
@@ -284,8 +289,9 @@ section.catalog-accessories .text p {
 /* end of catalog-accessories */
 
 aside {
-    max-width: 100%;
-    background-color: #FFFFFF;
+    width: 95%;
+    max-width: 1440px;
+    background-color: #FFFCF6;
     margin: 1rem;
     margin-bottom: 3rem;
 }
